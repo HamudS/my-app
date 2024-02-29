@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  border: 5px black solid;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  margin: 10px;
+}
