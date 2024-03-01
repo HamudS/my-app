@@ -1,15 +1,36 @@
 import React from "react";
-import "./Nav.css";
-import logo from "../assets/logo.svg";
-export const Nav = () => {
+import littlelemon_logo from "../images/littlelemon_logo.png";
+import "../styles/Nav.css";
+const Nav = () => {
   return (
-    <nav className="nav">
-      <img src={logo} alt="logo" />
+    <nav>
+      <img
+        src={littlelemon_logo}
+        alt="Little Lemon Logo"
+        className="navImg"
+      ></img>
       <ul>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
+        <li>
+          <a>Home</a>
+        </li>
+        <li>
+          <a>About</a>
+        </li>
+        <li>
+          <a>Menu</a>
+        </li>
+        <li>
+          <a>Reservations</a>
+        </li>
+        <li>
+          <a>Order Online</a>
+        </li>
+        <li>
+          <a>Login</a>
+        </li>
       </ul>
     </nav>
   );
 };
+
+export default Nav;

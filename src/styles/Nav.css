@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  margin: 1rem 2rem;
+  justify-content: center;
+}
+.navImg {
+  flex: 0.5;
+  width: 100px;
+  height: 50px;
+}
+ul {
+  display: flex;
+
+  list-style: none;
+}
+li {
+  text-align: justify;
+  margin: 1rem;
+}
